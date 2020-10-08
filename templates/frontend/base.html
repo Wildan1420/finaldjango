@@ -18,7 +18,7 @@
 
 <body>
     <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <a class="navbar-brand" href="#">Inventory</a>
+        <a class="navbar-brand" href="{% url 'index'%}">Clothes</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -31,19 +31,19 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="{% url 'About'%}">About <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="{% url 'Contact'%}">Contact <span class="sr-only">(current)</span></a>
+                <li class="nav-item active" style="margin-right: 1090;">
+                    <a class="nav-link" href="{% url 'contact'%}">Contact <span class="sr-only">(current)</span></a>
                 </li>
-                    <li class="nav-item active" style="float: right;">
-                        <a class="nav-link" href="https://www.facebook.com/Wmufasa/"><img src="static/images/FB.png"
-                                class="img-circle" alt="Cinque Terre" width="30" height="30"><span
-                                class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active" style="float: right;">
-                        <a class="nav-link" href="https://www.instagram.com/wiljjr/?hl=th"><img
-                                src="static/images/iG.jpg" class="img-circle" alt="Cinque Terre" width="30"
-                                height="30"><span class="sr-only">(current)</span></a>
-                    </li>
+                <li class="nav-item active" style="margin-right:10;">
+                    <a class="nav-link" href="https://www.facebook.com/Wmufasa/"><img src="static/images/FB.png"
+                            class="img-circle" alt="Cinque Terre" width="30" height="30"><span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active" >
+                    <a class="nav-link" href="https://www.instagram.com/wiljjr/?hl=th"><img
+                            src="static/images/iG.jpg" class="img-circle" alt="Cinque Terre" width="30"
+                            height="30"><span class="sr-only">(current)</span></a>
+                </li>
             
             </ul>
 
